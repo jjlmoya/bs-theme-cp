@@ -85,7 +85,7 @@ class NavService
         $html = '<div class="og-footer-classic__services l-column l-column--1-4 l-column--mobile--1-1
                          a-pad--x-20 a-pad--mobile-40
                          a-border a-border--light a-border--left a-border--mobile--bottom">
-        <a href="/servicios" class="a-text a-text--link a-text--underline a-pad--right a-text--link--secondary a-text a-text--secondary a-text--m">Guías de Viaje</a>
+        <a href="/guias-de-viaje" class="a-text a-text--link a-text--underline a-pad--right a-text--link--secondary a-text a-text--secondary a-text--m">Guías de Viaje</a>
         <nav class="a-text l-flex l-flex--direction-column">';
         while ($posts->have_posts()) : $posts->the_post();
             $content = get_the_title();
@@ -110,7 +110,7 @@ class NavService
                 Legal
             </h2>
             <nav class="a-text l-flex l-flex--direction-column ">
-                <a href="https://cintiplanes.es/politica-de-privacidad/"
+                <a href="/politica-de-privacidad/"
                    class="a-text a-text--link a-text--underline a-text--xs a-text--secondary a-pad--top-5 a-text--link--secondary">Política de Privacidad</a>
             </nav>
         </div>';
