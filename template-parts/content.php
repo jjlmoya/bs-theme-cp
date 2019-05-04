@@ -1,4 +1,4 @@
-<div class="p-default l-grid-column a-pad--y">
+<div class="p-default l-grid-column">
     <?php
     the_content();
     ?>

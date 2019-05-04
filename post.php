@@ -6,7 +6,7 @@ Template Post Type: post
 get_header();
 get_template_part('template-parts/header');
 ?>
-    <div class="p-post l-grid-column a-pad--y">
+    <div class="p-post l-grid-column">
         <?
         while (have_posts()) : the_post();
             get_template_part('template-parts/content');
